@@ -1,0 +1,51 @@
+
+/* Element selector */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+/* ID selector */
+#title {
+    text-align: center;
+    color: #2d6a4f;
+}
+
+/* Class selector */
+.intro {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Grouping selector */
+h2, p {
+    margin-bottom: 15px;
+}
+
+/* Định dạng danh sách */
+.hobby-one {
+    color: red;
+}
+
+.hobby-two {
+    color: blue;
+}
+
+.hobby-three {
+    color: green;
+}
+
+/* Pseudo-class: hover */
+button {
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b4332;
+}
